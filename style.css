@@ -2,3 +2,16 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+table, th, td {
+  border: 2px solid red;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: #cd848f;
+}
+
+tr {
+  height: 50px;
+}
